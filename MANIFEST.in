@@ -1,2 +1,2 @@
-include app.py uv.lock .streamlit/config.toml ui-preview.png
+include app.py uv.lock .streamlit/config.toml ui-preview.png CONTRIBUTING.md
 recursive-include docs *.md *.json
