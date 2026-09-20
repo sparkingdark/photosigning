@@ -1,0 +1,798 @@
+{
+  "generated_at": "2026-09-19T10:15:50.590130+00:00",
+  "scope": "Two deterministic synthetic images; finite local transformations. No real platform uploads, camera corpus, AI reconstruction, or exhaustive adversarial search. No rate is a real-world probability.",
+  "transformations": [
+    {
+      "fixture": "landscape",
+      "attempt": "Unchanged signed PNG",
+      "exact": true,
+      "watermark": true,
+      "registry_match": true,
+      "result": "exact",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Metadata stripped / lossless PNG re-encode",
+      "exact": true,
+      "watermark": true,
+      "registry_match": true,
+      "result": "exact",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "JPEG quality 95",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "JPEG quality 40",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "JPEG quality 10",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "WebP quality 50",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Resize to width 1080 + JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Resize to width 720 + JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Resize to width 360 + JPEG quality 70",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Resize to width 128 + JPEG quality 70",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Resize to width 32 + JPEG quality 70",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Crop: retain 90% of area",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Crop: retain 50% of area",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Crop: retain 10% of area",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Rotate 90 degrees",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Rotate 7 degrees with new border",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Horizontal mirror",
+      "exact": false,
+      "watermark": true,
+      "registry_match": false,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Grayscale",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Invert all colors",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Posterize to 3 bits per channel",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Gaussian blur radius 1",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Gaussian blur radius 3",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Gaussian blur radius 8",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Brightness multiplier 0.5",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Brightness multiplier 1.5",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Contrast multiplier 2",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Saturation multiplier 2",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Gaussian noise standard deviation 10",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Gaussian noise standard deviation 30",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Opaque central credit overlay",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Paint over left 50%",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Screenshot-like border (simulated)",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Combined crop + rotate + resize + contrast + JPEG 30",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Complete opaque replacement",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unchanged signed PNG",
+      "exact": true,
+      "watermark": true,
+      "registry_match": true,
+      "result": "exact",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Metadata stripped / lossless PNG re-encode",
+      "exact": true,
+      "watermark": true,
+      "registry_match": true,
+      "result": "exact",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "JPEG quality 95",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "JPEG quality 40",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "JPEG quality 10",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "WebP quality 50",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Resize to width 1080 + JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Resize to width 720 + JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Resize to width 360 + JPEG quality 70",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Resize to width 128 + JPEG quality 70",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Resize to width 32 + JPEG quality 70",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Crop: retain 90% of area",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Crop: retain 50% of area",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Crop: retain 10% of area",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Rotate 90 degrees",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Rotate 7 degrees with new border",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Horizontal mirror",
+      "exact": false,
+      "watermark": true,
+      "registry_match": false,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Grayscale",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Invert all colors",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Posterize to 3 bits per channel",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Gaussian blur radius 1",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Gaussian blur radius 3",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Gaussian blur radius 8",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Brightness multiplier 0.5",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Brightness multiplier 1.5",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Contrast multiplier 2",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Saturation multiplier 2",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Gaussian noise standard deviation 10",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Gaussian noise standard deviation 30",
+      "exact": false,
+      "watermark": true,
+      "registry_match": true,
+      "result": "watermark",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Opaque central credit overlay",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Paint over left 50%",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Screenshot-like border (simulated)",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Combined crop + rotate + resize + contrast + JPEG 30",
+      "exact": false,
+      "watermark": false,
+      "registry_match": true,
+      "result": "candidates",
+      "identity_trusted": false
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Complete opaque replacement",
+      "exact": false,
+      "watermark": false,
+      "registry_match": false,
+      "result": "unrecognized",
+      "identity_trusted": false
+    }
+  ],
+  "threats": [
+    {
+      "fixture": "landscape",
+      "attempt": "Copy exact signature onto unrelated image",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Change signed photographer name in record",
+      "result": "rejected"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Re-sign copied image with different key (no trusted key supplied)",
+      "result": "exact",
+      "identity_trusted": false,
+      "provenance_conflicts": 1
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Re-sign copied image with different key (trusted owner key supplied)",
+      "result": "wrong_key",
+      "identity_trusted": false,
+      "provenance_conflicts": 1
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Attacker has a copy of the owner's private key",
+      "result": "exact",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 1",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 2",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 3",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 4",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 5",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 6",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 7",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 8",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 9",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "landscape",
+      "attempt": "Unrelated negative control 10",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Copy exact signature onto unrelated image",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Change signed photographer name in record",
+      "result": "rejected"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Re-sign copied image with different key (no trusted key supplied)",
+      "result": "exact",
+      "identity_trusted": false,
+      "provenance_conflicts": 1
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Re-sign copied image with different key (trusted owner key supplied)",
+      "result": "wrong_key",
+      "identity_trusted": false,
+      "provenance_conflicts": 1
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Attacker has a copy of the owner's private key",
+      "result": "exact",
+      "identity_trusted": true
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 1",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 2",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 3",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 4",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 5",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 6",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 7",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 8",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 9",
+      "result": "unrecognized"
+    },
+    {
+      "fixture": "textured",
+      "attempt": "Unrelated negative control 10",
+      "result": "unrecognized"
+    }
+  ]
+}

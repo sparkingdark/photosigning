@@ -1,0 +1,15 @@
+PhotoSigning
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+This project includes a modified Python adaptation of Majik Signature:
+Copyright (c) 2026 Majikah Solutions OPC.
+https://github.com/Majikah/majik-signature
+Revision: e10d3984fdc25e5bde62f03362461d2344422bbc
+
+The adapted file is photosigning/majik_image.py. Source attribution and a
+description of modifications are in third_party/majik-signature/NOTICE.md.
+The upstream license is retained in third_party/majik-signature/LICENSE.
+
+Other dependencies retain their respective copyright notices and licenses.
+See THIRD_PARTY_NOTICES.md for the source-release dependency overview.

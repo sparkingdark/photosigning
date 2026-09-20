@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pem
+*.key
+.DS_Store
+.photosigning/
+
+# Local credentials and signing backups
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+
+# Local registries, including PHOTOSIGNING_REGISTRY overrides
+*.sqlite
+*.sqlite3
+*.sqlite*
+*.db
+*.db-*
+
+# Downloaded model weights and generated packages
+*.ckpt
+*.pt
+*.pth
+*.onnx
+build/
+dist/
+*.egg-info/
+
+# Local agent configuration
+.agents/
+.codex/
